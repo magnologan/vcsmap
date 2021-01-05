@@ -5,7 +5,7 @@ gem 'pry'
 gem 'require_all'
 gem 'tty'
 gem 'http'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.11.0'
 
 group :test do
   gem 'minitest'
